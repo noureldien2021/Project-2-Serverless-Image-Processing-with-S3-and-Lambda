@@ -36,10 +36,17 @@ Amazon DynamoDB: Store metadata about uploaded images.
 
 1. Amazon S3 stands for Simple Storage Service.  
 2. S3 stores data as **objects**.  
-3. Each object contains (key, value, metadata, version ID, access control information).  
-4. Virtually **unlimited storage** (You can store data as needed, without worrying about limits).  
-5. You can create up to **100 buckets per account** (by default).  
-6. Each bucket must have a globally **unique name** (Because bucket names are part of the public URL if used for hosting or accessing objects via HTTP).  
-7. Maximum object size is **5 TB**  
-   - But for uploads larger than 5 GB, AWS recommends using multipart upload for better performance and reliability.  
-   - To upload a file larger than 160 GB, use the AWS CLI, AWS SDKs, or Amazon S3 REST API.  
+3. SSE-S3 (Server-Side Encryption) → AWS manages the keys (default option).
+
+**AWS Lambda**
+
+1. AWS Lambda is a **serverless compute service** that runs your code without provisioning or managing servers.
+2. In this project, Lambda is **triggered automatically** when a new image is uploaded to the S3 bucket.
+3. It performs **image processing tasks** such as resizing and watermarking.
+
+**Amazon DynamoDB**
+1. Amazon DynamoDB is a **fully managed NoSQL database** that provides fast and predictable performance.
+2. In this project, DynamoDB is used to **store metadata** about uploaded images (e.g., filename, size, timestamp).
+   
+
+ 
