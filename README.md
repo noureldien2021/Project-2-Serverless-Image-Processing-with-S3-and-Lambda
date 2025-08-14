@@ -76,7 +76,7 @@ Create a serverless image processing application where users upload images to an
 You can view the live demo of the Serverless Image Processing project here:  
 
 <a href="https://drive.google.com/file/d/1hL2IYWyO8VBe94ezH_22tzpzFdHMNshr/view?usp=drive_link">
-  <img src="https://github.com/noureldien2021/Project-2-Serverless-Image-Processing-with-S3-and-Lambda/blob/main/demo2.jpg?raw=true" alt="Demo Video" width="400"/>
+  <img src="https://github.com/noureldien2021/Project-2-Serverless-Image-Processing-with-S3-and-Lambda/blob/main/demo2.jpg?raw=true" alt="Demo Video" width="100"/>
 </a>
 # Contact / Support
 
