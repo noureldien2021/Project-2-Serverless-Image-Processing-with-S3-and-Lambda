@@ -23,6 +23,6 @@ Amazon DynamoDB: Store metadata about uploaded images.
 
 # Architecture Diagram
 
-![Architecture Diagram](<img width="1497" height="680" alt="image" src="https://github.com/user-attachments/assets/3f0d7c41-d716-4ace-b0f1-f3be9c980e18" />)
+![Architecture Diagram](https://github.com/noureldien2021/Project-2-Serverless-Image-Processing-with-S3-and-Lambda/blob/main/_Serverless%20Image%20Processing.jpeg?raw=true)
 
 
