@@ -8,6 +8,7 @@
   - [AWS Lambda](#aws-lambda)
   - [Amazon DynamoDB](#amazon-dynamodb)
 - [WorkFlow](#WorkFlow)
+- [Learning Outcomes](#Learning Outcomes)
 - [Demo Link](#demo-link)
 - [Contact / Support](#contact--support)
 
@@ -63,6 +64,13 @@ Create a serverless image processing application where users upload images to an
 3. Image is processed (resize, watermark).  
 4. Processed image is saved to destination bucket.  
 5. Metadata is saved to DynamoDB (optional).  
+
+# Learning Outcomes
+1. Building event-driven architectures with Lambda and S3 triggers.
+2. Understanding cost-efficient, auto-scaling serverless applications.
+3. Enhancing security using IAM roles and S3 bucket policies.
+
+
 
 # Demo Link
 
