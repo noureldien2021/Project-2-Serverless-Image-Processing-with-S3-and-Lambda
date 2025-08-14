@@ -37,6 +37,8 @@ Amazon DynamoDB: Store metadata about uploaded images.
 1. Amazon S3 stands for Simple Storage Service.  
 2. S3 stores data as **objects**.  
 3. SSE-S3 (Server-Side Encryption) → AWS manages the keys (default option).
+4. In this project, S3 stores both **original uploaded images** and **processed images** in separate buckets.
+5. S3 integrates seamlessly with Lambda to **trigger image processing automatically** when a new file is uploaded.
 
 **AWS Lambda**
 
