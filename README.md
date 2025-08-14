@@ -33,7 +33,7 @@ Create a serverless image processing application where users upload images to an
 
 # AWS Services Used
 
-**Amazon S3**
+#### Amazon S3
 
 1. Amazon S3 stands for Simple Storage Service.  
 2. S3 stores data as **objects**.  
@@ -49,7 +49,7 @@ Create a serverless image processing application where users upload images to an
 3. It performs **image processing tasks** such as resizing and watermarking.
 
 
-**Amazon DynamoDB**
+#### Amazon DynamoDB
 1. Amazon DynamoDB is a **fully managed NoSQL database** that provides fast and predictable performance.
 2. In this project, DynamoDB is used to **store metadata** about uploaded images (e.g., filename, size, timestamp).
    
