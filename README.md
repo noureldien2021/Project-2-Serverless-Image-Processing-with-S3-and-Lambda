@@ -4,6 +4,11 @@
 
 - [Solution Overview](#solution-overview)
 - [Architecture Diagram](#architecture-diagram)
+- [AWS Services Used](#aws-services-used)
+  - [Amazon S3](#amazon-s3)
+  - [AWS Lambda](#aws-lambda)
+  - [Amazon DynamoDB](#amazon-dynamodb)
+ 
 
 
 
