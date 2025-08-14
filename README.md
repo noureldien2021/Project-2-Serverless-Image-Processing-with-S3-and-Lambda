@@ -39,11 +39,13 @@ Create a serverless image processing application where users upload images to an
 4. In this project, S3 stores both **original uploaded images** and **processed images** in separate buckets.
 5. S3 integrates seamlessly with Lambda to **trigger image processing automatically** when a new file is uploaded.
 
+
 **AWS Lambda**
 
 1. AWS Lambda is a **serverless compute service** that runs your code without provisioning or managing servers.
 2. In this project, Lambda is **triggered automatically** when a new image is uploaded to the S3 bucket.
 3. It performs **image processing tasks** such as resizing and watermarking.
+
 
 **Amazon DynamoDB**
 1. Amazon DynamoDB is a **fully managed NoSQL database** that provides fast and predictable performance.
