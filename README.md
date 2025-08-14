@@ -7,6 +7,7 @@
   - [Amazon S3](#amazon-s3)
   - [AWS Lambda](#aws-lambda)
   - [Amazon DynamoDB](#amazon-dynamodb)
+- [WorkFlow](#how-it-works--flow)
 - [Contact / Support](#contact--support)
 
  
@@ -52,7 +53,14 @@ Create a serverless image processing application where users upload images to an
 #### Amazon DynamoDB
 1. Amazon DynamoDB is a **fully managed NoSQL database** that provides fast and predictable performance.
 2. In this project, DynamoDB is used to **store metadata** about uploaded images (e.g., filename, size, timestamp).
-   
+
+
+# WorkFlow
+1. Upload image to source S3 bucket.  
+2. Lambda is triggered automatically.  
+3. Image is processed (resize, watermark).  
+4. Processed image is saved to destination bucket.  
+5. Metadata is saved to DynamoDB (optional).  
 
 # Contact / Support
 
