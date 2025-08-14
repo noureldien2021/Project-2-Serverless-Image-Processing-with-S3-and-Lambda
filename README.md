@@ -10,7 +10,6 @@
 
 # Solution Overview
 
-Architecture: Serverless
 
 **Description**
 
@@ -21,5 +20,9 @@ Create a serverless image processing application where users upload images to an
 Amazon S3: Stores original and processed images.
 AWS Lambda: Executes image processing (resize, watermarking).
 Amazon DynamoDB: Store metadata about uploaded images.
+
+# Architecture Diagram
+
+![Architecture Diagram]([docs/architecture.png](https://github.com/noureldien2021/Project-2-Serverless-Image-Processing-with-S3-and-Lambda/blob/f8bc827c2fee25b024a02ae7a7c28f5a1fa664f8/_Serverless%20Image%20Processing.jpeg))
 
 
