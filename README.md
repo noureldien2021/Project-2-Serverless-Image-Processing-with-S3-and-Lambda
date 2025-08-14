@@ -8,7 +8,7 @@
   - [AWS Lambda](#aws-lambda)
   - [Amazon DynamoDB](#amazon-dynamodb)
 - [WorkFlow](#WorkFlow)
-- [Learning Outcomes](#Learning Outcomes)
+- [Learning Outcomes](#Learning-Outcomes)
 - [Demo Link](#demo-link)
 - [Contact / Support](#contact--support)
 
