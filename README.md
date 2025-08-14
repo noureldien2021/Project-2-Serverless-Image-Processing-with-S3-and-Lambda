@@ -7,7 +7,7 @@
   - [Amazon S3](#amazon-s3)
   - [AWS Lambda](#aws-lambda)
   - [Amazon DynamoDB](#amazon-dynamodb)
-- [WorkFlow](#how-it-works--flow)
+- [WorkFlow](#WorkFlow)
 - [Contact / Support](#contact--support)
 
  
