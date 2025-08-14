@@ -59,6 +59,7 @@ Create a serverless image processing application where users upload images to an
 For any questions or support regarding this project, you can reach me at:
 
 - **Email:** noureldiensami2021@gmail.com
-- **LinkedIn:** [Noureldin Sami](https://www.linkedin.com/in/noureldien-sami/)  
+- **LinkedIn:** [Noureldin Sami](https://www.linkedin.com/in/noureldien-sami/)
+- **Website:** [Noureldin Sami](https://noureldien-sami2024.netlify.app/)  
 - **GitHub Issues:** [Open an Issue](https://github.com/noureldien2021/Project-2-Serverless-Image-Processing-with-S3-and-Lambda/issues)
  
