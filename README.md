@@ -33,13 +33,13 @@ Amazon DynamoDB: Store metadata about uploaded images.
 # AWS Services Used
 
 ** Amazon S3
-Amazon S3:
-✅ Amazon S3 stands for Simple Storage Service.
-✅S3 stores data as 𝐨𝐛𝐣𝐞𝐜𝐭𝐬.
-✅ Each object contains (key-value- Metadata-version ID -access control information).
-✅Virtually 𝐮𝐧𝐥𝐢𝐦𝐢𝐭𝐞𝐝 𝐬𝐭𝐨𝐫𝐚𝐠𝐞 (You can store data as needed, without worrying about limits).
-✅You can create up to 𝟏𝟎𝟎 𝐛𝐮𝐜𝐤𝐞𝐭𝐬 per account (by default).
-✅Each bucket must have a globally 𝐮𝐧𝐢𝐪𝐮𝐞 𝐧𝐚𝐦𝐞(Because bucket names are part of the public URL if used for hosting or accessing objects via HTTP).
-✅Maximum object size is 𝟓 𝐓𝐁
-- (But for uploads larger than 5 GB, AWS recommends using multipart upload for better performance and reliability)
-- (To upload a file larger than 160GB, use the AWS CLI, AWS SDKs or Amazon S3 REST API)
+
+ 1- Amazon S3 stands for Simple Storage Service.
+2- S3 stores data as 𝐨𝐛𝐣𝐞𝐜𝐭𝐬.
+3-  Each object contains (key-value- Metadata-version ID -access control information).
+4- Virtually 𝐮𝐧𝐥𝐢𝐦𝐢𝐭𝐞𝐝 𝐬𝐭𝐨𝐫𝐚𝐠𝐞 (You can store data as needed, without worrying about limits).
+5- You can create up to 𝟏𝟎𝟎 𝐛𝐮𝐜𝐤𝐞𝐭𝐬 per account (by default).
+6- Each bucket must have a globally 𝐮𝐧𝐢𝐪𝐮𝐞 𝐧𝐚𝐦𝐞(Because bucket names are part of the public URL if used for hosting or accessing objects via HTTP).
+7- Maximum object size is 𝟓 𝐓𝐁
+  - (But for uploads larger than 5 GB, AWS recommends using multipart upload for better performance and reliability)
+  - (To upload a file larger than 160GB, use the AWS CLI, AWS SDKs or Amazon S3 REST API)
