@@ -7,6 +7,8 @@
   - [Amazon S3](#amazon-s3)
   - [AWS Lambda](#aws-lambda)
   - [Amazon DynamoDB](#amazon-dynamodb)
+- [Contact / Support](#contact--support)
+
  
 
 
@@ -52,4 +54,11 @@ Create a serverless image processing application where users upload images to an
 2. In this project, DynamoDB is used to **store metadata** about uploaded images (e.g., filename, size, timestamp).
    
 
+# Contact / Support
+
+For any questions or support regarding this project, you can reach me at:
+
+- **Email:** noureldiensami2021@gmail.com
+- **LinkedIn:** [NourEl-dien Sami](https://www.linkedin.com/in/noureldien-sami/)  
+- **GitHub Issues:** [Open an Issue](https://github.com/noureldien2021/Project-2-Serverless-Image-Processing-with-S3-and-Lambda/issues)
  
