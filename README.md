@@ -42,7 +42,7 @@ Create a serverless image processing application where users upload images to an
 5. S3 integrates seamlessly with Lambda to **trigger image processing automatically** when a new file is uploaded.
 
 
-**AWS Lambda**
+## AWS Lambda
 
 1. AWS Lambda is a **serverless compute service** that runs your code without provisioning or managing servers.
 2. In this project, Lambda is **triggered automatically** when a new image is uploaded to the S3 bucket.
